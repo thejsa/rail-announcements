@@ -118,7 +118,7 @@ export default abstract class AnnouncementSystem {
    */
   abstract readonly SYSTEM_TYPE: 'station' | 'train'
 
-  private static readonly SAMPLE_RATE = 48000
+  private static readonly SAMPLE_RATE = 44100
 
   headerComponent(): React.ReactNode {
     return null
